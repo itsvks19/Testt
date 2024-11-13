@@ -1,0 +1,15 @@
+{
+  "author": "Unknown",
+  "description": "No description provided",
+  "enabled": true,
+  "name": "he",
+  "packageName": "com.example.plugin",
+  "scripts": [
+    {
+      "entryPoint": "init",
+      "name": "main.bsh"
+    }
+  ],
+  "versionCode": 1,
+  "versionName": "1.0.0"
+}

@@ -1,0 +1,154 @@
+{
+  "snippets": [
+    {
+      "trigger": "fori",
+      "description": "Snippet - For loop on index",
+      "snippet": "for(int ${1:i} = 0; $1 < ${2:count}; $1++) {\n    $0\n}"
+    },
+    {
+      "trigger": "sconst",
+      "description": "Snippet - Static Constant",
+      "snippet": "private final static ${1:type} ${2/(.*)/${1:/upcase}/} = ${3:value};"
+    },
+    {
+      "trigger": "clip",
+      "description": "Snippet - Clipboard contents",
+      "snippet": "${1:${CLIPBOARD}}"
+    },
+    {
+      "trigger": "main",
+      "description": "Snippet - Main method",
+      "snippet": "public static void main(String[] args) {\n    $0\n}"
+    },
+    {
+      "trigger": "sysout",
+      "description": "Snippet - System.out.println",
+      "snippet": "System.out.println(${1:\"text\"});"
+    },
+    {
+      "trigger": "foreach",
+      "description": "Snippet - Enhanced for loop",
+      "snippet": "for(${1:Type} ${2:item} : ${3:collection}) {\n    $0\n}"
+    },
+    {
+      "trigger": "if",
+      "description": "Snippet - If statement",
+      "snippet": "if (${1:condition}) {\n    $0\n}"
+    },
+    {
+      "trigger": "ifelse",
+      "description": "Snippet - If-Else statement",
+      "snippet": "if (${1:condition}) {\n    $2\n} else {\n    $0\n}"
+    },
+    {
+      "trigger": "while",
+      "description": "Snippet - While loop",
+      "snippet": "while (${1:condition}) {\n    $0\n}"
+    },
+    {
+      "trigger": "dowhile",
+      "description": "Snippet - Do-While loop",
+      "snippet": "do {\n    $0\n} while (${1:condition});"
+    },
+    {
+      "trigger": "switch",
+      "description": "Snippet - Switch statement",
+      "snippet": "switch (${1:variable}) {\n    case ${2:case1}:\n        $0\n        break;\n    default:\n        break;\n}"
+    },
+    {
+      "trigger": "trycatch",
+      "description": "Snippet - Try-Catch block",
+      "snippet": "try {\n    $0\n} catch (${1:Exception} ${2:e}) {\n    $3\n}"
+    },
+    {
+      "trigger": "trycatchfinally",
+      "description": "Snippet - Try-Catch-Finally block",
+      "snippet": "try {\n    $0\n} catch (${1:Exception} ${2:e}) {\n    $3\n} finally {\n    $4\n}"
+    },
+    {
+      "trigger": "method",
+      "description": "Snippet - Method definition",
+      "snippet": "public ${1:void} ${2:methodName}(${3:params}) {\n    $0\n}"
+    },
+    {
+      "trigger": "class",
+      "description": "Snippet - Class definition",
+      "snippet": "public class ${1:ClassName} {\n    $0\n}"
+    },
+    {
+      "trigger": "interface",
+      "description": "Snippet - Interface definition",
+      "snippet": "public interface ${1:InterfaceName} {\n    $0\n}"
+    },
+    {
+      "trigger": "enum",
+      "description": "Snippet - Enum definition",
+      "snippet": "public enum ${1:EnumName} {\n    $0\n}"
+    },
+    {
+      "trigger": "list",
+      "description": "Snippet - List instantiation",
+      "snippet": "List<${1:Type}> ${2:listName} = new ArrayList<>();"
+    },
+    {
+      "trigger": "map",
+      "description": "Snippet - Map instantiation",
+      "snippet": "Map<${1:KeyType}, ${2:ValueType}> ${3:mapName} = new HashMap<>();"
+    },
+    {
+      "trigger": "set",
+      "description": "Snippet - Set instantiation",
+      "snippet": "Set<${1:Type}> ${2:setName} = new HashSet<>();"
+    },
+    {
+      "trigger": "printstacktrace",
+      "description": "Snippet - Print stack trace",
+      "snippet": "${1:e}.printStackTrace();"
+    },
+    {
+      "trigger": "synchronized",
+      "description": "Snippet - Synchronized block",
+      "snippet": "synchronized(${1:lock}) {\n    $0\n}"
+    },
+    {
+      "trigger": "throw",
+      "description": "Snippet - Throw exception",
+      "snippet": "throw new ${1:Exception}(${2:\"message\"});"
+    },
+    {
+      "trigger": "assert",
+      "description": "Snippet - Assert statement",
+      "snippet": "assert ${1:condition} : ${2:\"message\"};"
+    },
+    {
+      "trigger": "return",
+      "description": "Snippet - Return statement",
+      "snippet": "return ${1:value};"
+    },
+    {
+      "trigger": "this",
+      "description": "Snippet - This reference",
+      "snippet": "this.${1:variable};"
+    },
+    {
+      "trigger": "super",
+      "description": "Snippet - Super reference",
+      "snippet": "super.${1:method}(${2:args});"
+    },
+    {
+      "trigger": "lambda",
+      "description": "Snippet - Lambda expression",
+      "snippet": "(${1:params}) -> {\n    $0\n}"
+    },
+    {
+      "trigger": "optional",
+      "description": "Snippet - Optional usage",
+      "snippet": "Optional.ofNullable(${1:value}).ifPresent(${2:val} -> {\n    $0\n});"
+    },
+    {
+      "trigger": "var",
+      "description": "Snippet - Var keyword (Java 10+)",
+      "snippet": "var ${1:variableName} = ${2:value};"
+    }
+  ]
+}
